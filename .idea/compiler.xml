@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="delivery-administration-domain" />
+        <module name="delivery-administration-infrastructure" />
+        <module name="delivery-application" />
+        <module name="delivery-infrastructure" />
         <module name="bom-module" />
-        <module name="application" />
-        <module name="infrastructure" />
+        <module name="delivery-administration-application" />
         <module name="common-module" />
         <module name="integration-module" />
-        <module name="domain" />
+        <module name="delivery-domain" />
       </profile>
     </annotationProcessing>
   </component>
